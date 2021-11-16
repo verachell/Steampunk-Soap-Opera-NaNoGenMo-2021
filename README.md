@@ -36,7 +36,7 @@ The main words of the soap opera are from the English part of the Esperanto book
 ### Limitations
 - The word groups used in this project did not necessarily have the same parts of speech, so sentences may not make a lot of sense.
 
-- Although I have tried to minimize how much templating I was doing in this project, some level of it was necessary.
+- Although I have tried to minimize how much templating I was doing in this project, some level of it was necessary, particularly when removing or adding a character, and at the end.
 
 ### Credits
 #### Dialogue
