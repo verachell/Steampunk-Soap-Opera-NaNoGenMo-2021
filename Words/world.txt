@@ -1,0 +1,35 @@
+air                
+  cloud              
+  cold               
+  darkness           
+  dew                
+  dust               
+  earth              
+  east               
+  eclipse            
+  fire               
+  fog                
+  frost              
+  hail               
+  heat               
+  light              
+  lightning          
+  new moon    
+  full moon           
+  moonlight          
+  nature             
+  north              
+  rain               
+  rainbow            
+  shade
+shadow     
+  sky                
+  snow               
+  south              
+  star               
+  sun                
+  thaw               
+  thunder            
+  weather            
+  west               
+  wind               

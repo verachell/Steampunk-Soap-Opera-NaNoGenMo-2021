@@ -1,0 +1,179 @@
+ account            
+  current account  
+  joint account        
+  close an account   
+  settle an account
+  acknowledgment     
+  agency             
+  agent              
+  apprentice         
+  arrear         
+  assets             
+  balance of account 
+  balance-sheet      
+  bank               
+  bankrupt    
+  bankruptcy               
+  bearer             
+  bill           
+  bill at sight        
+  bill at 3 months' date             
+  bill of exchange     
+  bill of lading       
+  bond                                   
+  bonded goods       
+                     
+                     
+  book-keeper        
+  branch
+establishment    
+  broker             
+    brokerage        
+  business           
+  buyer              
+  cargo              
+  carriage           
+    carriage-paid    
+                     
+  cashier            
+  charter a ship
+  charter-party      
+  catalogue          
+  cheque             
+  claim              
+  clerk              
+  company            
+  joint-stock company
+                     
+  limited company      
+  compensation       
+  complaint          
+  confiscate     
+  contract      
+  cost, insurance and freight
+  cost price         
+  credit             
+    creditor         
+  custom-house       
+  customs     
+  customs clearing-house  
+  customs duties     
+  damage             
+  damages    
+  debenture shares   
+                     
+  debit              
+  debt               
+    debtor           
+  deliver        
+    delivered free   
+                     
+  demurrage          
+                     
+  department         
+  director
+ manager  
+  discount
+  dividend           
+  dock and harbour dues             
+  double entry  
+                     
+  draft              
+    draw upon    
+    drawee           
+    drawer           
+  export duty       
+  import duty    
+    duty-free        
+  enclosed           
+  enclosure     
+  endorse       
+    endorsee         
+    endorsement      
+    endorser         
+  exchange       
+  excise             
+  exports            
+  firm         
+  forwarding         
+  free on board              
+  freightage         
+  guarantee     
+  imports            
+  insolvent          
+  insurance policy   
+  insurance premium         
+  insure       
+  introduction       
+ letter of introduction    
+  invest
+  letter of advice   
+  liabilities        
+  liable to duty     
+  load          
+  loss               
+  manifest      
+  marine insurance   
+  market             
+    foreign market   
+                     
+    home market      
+    London market    
+    market-day       
+    market dues      
+  market price       
+  not negotiable     
+  offer for sale
+  office             
+  order
+  packing            
+  partner            
+  payable            
+  port of delivery   
+  preference shares  
+                     
+  prepaid            
+  price              
+    price-list       
+  quarantine         
+  quotation     
+  rate of interest   
+  receipt            
+  receiver           
+  register     
+  registered tonnage 
+  registration       
+                     
+  representative     
+  rent               
+  retail        
+  salesman
+ seller   
+  selling price      
+  settling days      
+  shareholder        
+  shares             
+  ship         
+  shippers           
+  shipping charges   
+  shop-assistant     
+  solvent            
+  stevedore          
+  stow  
+  telegraphic address          
+  towing charges     
+  trade
+commerce    
+  transaction        
+  commercial traveller      
+           
+  underwriter        
+  unloading          
+  visa          
+  warehouse          
+  gross weight       
+  net weight         
+  wharf              
+    wharfage         
+  wholesale          
+  winding-up

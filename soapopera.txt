@@ -1,0 +1,251 @@
+REFGENDER male.names = malenames
+REFGENDER female.names = femalenames
+ASSIGNLIST said = "said" + "remarked" + "announced" + "declared" + "insisted" + "reflected" + "mused" + "mentioned" + "proclaimed" + "speculated" + "shouted"
+ASSIGNLIST exclaim = ""_DIALOGE_" _PERSON.HESHE_ exclaimed." + "_PERSON.HESHE_ exclaimed, "_DIALOGE_""
+ASSIGNLIST placeitem = "picking up the _NEWPROP_ _NEWPART_, _PERSON.NAME_ stored it in _PERSON.HISHER_ _PERSON.CLOTHING_ but brought out _PERSON.HISHER_ _PERSON.PROP_ _PERSON.PART_ and added it to the invention" + "the _NEWPROP_ _NEWPART_ looked intriguing to _PERSON.NAME_ but _PERSON.HESHE_ decided to save it for later and instead applied _PERSON.HISHER_ _PERSON.PROP_ _PERSON.PART_ to their gadget"
+ASSIGNLIST groupinfo = "_GROUPNAMES_ were not far from the _COUNTRYSIDE_" + "at the _RECREATION_, _GROUPNAMES_ saw a _ADJ_ sign saying "_NOTICE_"" + "Meanwhile, behind the _COUNTRYSIDE_, _GROUPNAMES_ decided to _INFVERB_"
+ASSIGNLIST parting = "they parted ways with _QUALITY_" + "although _ADJ_, many had a _RELATIVE_ or _RELATIVE_ it was time to see" + "it was time for each to don _DRESS_ and go his or her own way via _ROADTRAVEL_ or _ROADTRAVEL_" + "that _DATE_, a _JOB_ called them away"
+ASSIGNLIST tragedy = "sadly, while out near the _COUNTRYSIDE_ and _COUNTRYSIDE_, _KILLING.NAME_ was set upon by a _LGANIMAL_, _LGANIMAL_ and _LGANIMAL_, and died in the encounter" + "_KILLING.NAME_ suffered a severe _HEALTH_ and _HEALTH_ to _KILLING.HISHER_ _BODYPART_ and passed away in hospital" + "out one _DATE_ in an extreme _WORLD_, _KILLING.NAME_ did not survive the exposure to the elements"
+ASSIGNLIST inventpart = motor + cycle
+ASSIGNLIST partprop = color + mineral
+ASSIGNLIST newprop = partprop 1
+ASSIGNLIST newpart = inventpart 1
+ASSIGNLIST speclganimal = lganimal 3
+ASSIGNLIST specsmanimal = smanimal 3
+ASSIGNLIST specland = land 3
+ASSIGNLIST specplant = plant 3
+ASSIGNLIST invloc = countryside 1
+ASSIGNLIST time = "a _DATE_ later" + "the _ORDINAL_ _DATE_" + "the following _DATE_" + "another _DATE_"
+ASSIGNLIST title = "The _WORLD_ and _ADVPREP_ the _INVLOC_"
+
+ASSIGNCATALOG mywords = wfolder + said + inventpart + speclganimal + specsmanimal + specland + specplant + invloc + newprop + newpart
+
+GEN person 5--6 binary
+job 1 job
+clothing 1 dress
+clothingcolor 1 color
+prop 1 partprop
+part 1 inventpart
+quality 1 quality
+GENEND
+
+RECITE groupnames = person.name + all
+ASSIGNCATALOG mywords = mywords + groupnames
+
+DESC startscene
+FORMAT ACF
+WRITE time mywords
+NEWPARA
+FORMAT ACPS
+WRITE description mywords 2
+DESCEND
+
+DESC writechapter
+SHUFFLE person
+NEWCHAPTER
+DESCEND
+
+DESC newcharacter
+GEN aperson 1 binary
+job 1 job
+clothing 1 dress
+clothingcolor 1 color
+item 1 writing
+quality 1 quality
+GENEND
+DESCEND
+
+DESC letter
+FORMAT AC
+WRITE introletter mywords 1
+NEWPARA
+FORMAT TACPS
+WRITE letter mywords 1
+FORMAT ACPS
+WRITE letter mywords 3--6
+NEWPARA
+WRITE endletter mywords 1
+DESCEND
+
+DESC groupnameheader
+FORMAT ACF
+RECITE groupnames = person.name + all
+WRITE groupnames mywords
+DESCEND
+
+DESC writenames
+ASSIGNCATALOG mywords = mywords - groupnames
+RECITE groupnames = person.name + all
+ASSIGNCATALOG mywords = mywords + groupnames
+NEWPARA
+FORMAT ACPS
+WRITE groupinfo mywords
+DESCEND
+
+DESC split
+FORMAT NACPS
+WRITE parting mywords
+ASSIGNGEN allppl = person
+ASSIGNGEN subgroup1 = person 2--3
+ASSIGNGEN subgroup2 = person - subgroup1
+ASSIGNGEN person = subgroup1
+FORMAT ACPS
+DESCEND
+
+DESC switchgroups
+ASSIGNGEN person = subgroup2
+DESCEND
+
+DESC joingroups
+ASSIGNGEN person = allppl
+DESCEND
+
+DESC splitevent
+CALL groupnameheader
+CALL writenames
+CALL talking
+NEWPARA
+FORMAT ACPS
+WRITE character mywords 2
+SHIFT person
+CALL letter
+WRITE character mywords 2--4
+SHIFT person
+NEWPARA
+WRITE character mywords 2--5
+NEWPARA
+WRITE parting mywords
+DESCEND
+
+DESC talking
+FORMAT TN
+LOOP 2--3
+SHIFT PERSON
+WRITE dialog mywords
+LOOPEND
+LOOP 1
+NEWPARA
+FORMAT ACPS
+WRITE character mywords 2
+SHIFT PERSON
+LOOPEND
+LOOP 2--5
+FORMAT TN
+SHUFFLE PERSON
+SHIFT PERSON
+WRITE dialog mywords
+LOOPEND
+DESCEND
+
+DESC invention
+ASSIGNCATALOG mywords = mywords - newprop - newpart
+ASSIGNLIST newprop = partprop 1
+ASSIGNLIST newpart = inventpart 1
+ASSIGNCATALOG mywords = mywords + newprop + newpart
+ASSIGNLIST sectionhead = "The _NEWPROP_ _NEWPART_ and _PERSON.NAME_'s _PERSON.PROP_ _PERSON.PART_"
+FORMAT ACF
+WRITE sectionhead mywords
+FORMAT ACPS
+NEWPARA
+WRITE everyoneintro mywords 1
+WRITE description mywords 2
+WRITE findpart mywords 1
+NEWPARA
+FORMAT TACS
+WRITE exclaim mywords
+NEWPARA
+FORMAT ACPS
+WRITE placeitem mywords
+
+ASSIGNLIST person.prop = newprop
+ASSIGNLIST person.part = newpart
+
+SHIFT person
+FORMAT TN
+LOOP 2--6
+WRITE dialog mywords 1
+SHIFT person
+LOOPEND
+NEWPARA
+FORMAT ACPS
+WRITE description mywords 3
+NEWPARA
+WRITE inv mywords 1
+DESCEND
+
+DESC introscene
+CALL startscene
+CALL writenames
+CALL talking
+DESCEND
+
+DESC newchar
+GEN newperson 1 binary
+job 1 job
+clothing 2 dress
+clothingcolor 1 color
+prop 1 partprop
+part 1 inventpart
+quality 1 quality
+GENEND
+DESCEND
+
+DESC killperson
+FORMAT ACF
+ASSIGNLIST headname = "tragedy strikes" + "a tragic occasion" + "a sudden death"
+ASSIGNGEN killing = person 1
+ASSIGNGEN person = person - killing
+WRITE headname mywords
+FORMAT ACPS
+WRITE tragedy mywords
+NEWPARA
+ASSIGNCATALOG mywords = mywords - groupnames
+RECITE groupnames = person.name + all
+ASSIGNCATALOG mywords = mywords + groupnames
+ASSIGNLIST mourn = "_GROUPNAMES_ mourned _KILLING.NAME_. They would never forget _KILLING.HISHER_ _KILLING.QUALITY_, nor the way _KILLING.HESHE_ wore _KILLING.HISHER_ _KILLING.CLOTHINGCOLOR_ _KILLING.CLOTHING_. The felt _KILLING.HISHER_  loss to the group and to the profession of the _KILLING.JOB_. They all planted a _PLANT_ in _KILLING.HISHER_ honor"
+WRITE mourn mywords
+DESCEND
+
+DESC addperson
+CALL newchar
+ASSIGNLIST addheader = "a mysterious stranger arrives" + "_NEWPERSON.NAME_" + "an arrival"
+FORMAT ACF
+WRITE addheader mywords
+FORMAT ACPS
+ASSIGNLIST newpersoninfo = "beyond _WORLD_ and _SPECLAND_, a new person arrived" + "from a long journey via _ROADTRAVEL_ and _SHIPTRAVEL_, someone new arrived"
+WRITE newpersoninfo mywords
+ASSIGNLIST morenew = "_NEWPERSON.HISHER_ name was _NEWPERSON.NAME_ and _NEWPERSON.HESHE_ worked as a _NEWPERSON.JOB_, dressed in a _NEWPERSON.CLOTHINGCOLOR_ _NEWPERSON.CLOTHING_"
+WRITE morenew mywords
+ASSIGNGEN person = person + newperson
+DESCEND
+
+##### begin main program ####
+FORMAT DC
+WRITE title mywords
+LOOP 50000W
+LOOP 5000W
+CALL writechapter
+CALL introscene
+CALL split
+CALL splitevent
+CALL switchgroups
+CALL splitevent
+CALL joingroups
+SHUFFLE person
+SHIFT person
+CALL invention
+LOOPEND
+CALL killperson
+CALL addperson
+CALL talking
+LOOPEND
+# write end chapter
+CALL writechapter
+CALL startscene
+WRITE description mywords 3
+NEWPARA
+ASSIGNCATALOG mywords = mywords - groupnames
+RECITE groupnames = person.name + all
+ASSIGNCATALOG mywords = mywords + groupnames
+ASSIGNLIST final = "At the _INVLOC_, _GROUPNAMES_ gazed at their _ADJ_ invention. Finally it was ready to _INFVERB_. After starting it with _PERSON.NAME_'s _PERSON.PROP_ _PERSON.PART_, they cheered "_SHIPTRAVEL_!" and "_SHIPTRAVEL_!" It started converting the _DATE_ to the _DATE_ and they moved off in their invention, starting at the _SPECLAND_ and moving through a _AMOUNT_ of the _WORLD_ and _WORLD_ to a better _DATE_"
+WRITE final mywords

@@ -1,0 +1,94 @@
+  acorn              
+  almond             
+  apple              
+  apricot            
+  ash                
+  asparagus          
+  banana             
+  bark               
+  beans              
+  beech tree
+  beetroot           
+  birch tree     
+  blackberry         
+  bouquet            
+  branch             
+  buttercup          
+  cabbage            
+  carrot             
+  cauliflower        
+  celery             
+  cherry             
+  chestnut
+  chrysanthemum      
+  cucumber           
+  currants   
+  daisy              
+  dandelion          
+  elm tree       
+  evergreen          
+  fern               
+  fibre              
+  fig                
+  fir tree
+  flower             
+  fruit-tree         
+  gooseberry         
+  grape              
+  holly              
+  horse-chestnut     
+  horse-radish       
+  ivy                
+  kernel             
+  laurel             
+  leaf               
+  lemon              
+  lettuce            
+  lily               
+  lily-of-the-valley 
+  lime     
+  lime tree            
+  maize              
+  maple              
+  melon              
+  misletoe           
+  mulberry           
+  nettle             
+  nut 
+walnut        
+  oak tree       
+  onion              
+  orange             
+  parsnip            
+  peach              
+  pear               
+  peas               
+  pineapple         
+  plant              
+  plum               
+  potatoes           
+  primrose           
+  privet             
+  pumpkin            
+  radishes           
+  raisins            
+  raspberry          
+  root               
+  rose               
+  skin of fruit
+shell of fruit          
+  sloe               
+  spinach            
+  stalk
+stem        
+  strawberry         
+  stump              
+  tomato             
+  tree               
+  tree trunk      
+  tulip              
+  turnip             
+  vegetable marrow   
+  vine               
+  violet             
+  willow             

@@ -1,0 +1,59 @@
+  alongside
+  anchor             
+  berth              
+  boat               
+  boiler             
+  bow                
+  buoy               
+  cabin              
+  cable              
+  captain            
+  compass            
+  crane              
+  crew               
+  deck               
+  disembark          
+  dock               
+  embark          
+  engineer           
+  fishing-boat       
+  flag               
+  gangway            
+  harbour
+ port      
+  helm
+ rudder       
+  hold               
+  land            
+  landing-stage    
+    pier             
+  life-belt          
+  life-boat          
+  lighthouse         
+  mast               
+  oar                
+  paddle-wheel       
+  passenger          
+  pilot              
+  port-hole          
+  quay               
+  rope               
+  sail               
+  sailing-ship       
+  first class saloon         
+  screw-propeller    
+                     
+  seaman
+ sailor     
+  ship               
+  start         
+  steam-boat
+steam-ship  
+  third class steerage       
+  steersman          
+  stern              
+  steward            
+  stewardess         
+  tug                
+  voyage             
+

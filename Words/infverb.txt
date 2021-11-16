@@ -1,0 +1,182 @@
+accept          
+   admire           
+   answer
+ reply    
+  approve          
+   arrive           
+   ascend           
+   ask              
+   attract
+ draw    
+  awake  
+  be               
+  be hungry        
+  be ignorant of   
+   be mistaken      
+   be quiet
+be silent 
+   be thirsty       
+   beat             
+   begin  
+   believe          
+   blame            
+   boil        
+   borrow           
+   bring            
+   build            
+   button           
+   buy              
+   carry            
+   catch cold       
+   chat             
+   climb            
+   compare          
+   consent          
+   continue              
+   cook             
+   cough            
+   cover            
+   dance            
+   decide           
+   deny             
+   depart
+ go away  
+  descend          
+   desire
+wish     
+            
+ dine             
+  do
+make         
+ doubt            
+  draw
+ pull       
+   dream            
+  drink            
+   dress            
+   dwell
+ live      
+   eat              
+   exchange         
+   excuse           
+   explain          
+   fall             
+   feel 
+ find             
+finish  
+   follow           
+   forget           
+   gather           
+   get              
+   get up           
+   give             
+   go               
+   go in            
+   go out           
+   grow             
+   guide            
+   hate             
+   have             
+   hear             
+   hesitate         
+   hide             
+   hope             
+   imagine          
+   ignore           
+   intend           
+   introduce        
+   joke             
+   jump             
+   know             
+   laugh            
+   learn            
+   lend             
+   lie down         
+   live
+   look for         
+   lose             
+   love             
+   marry  
+   meet             
+   mention          
+   need
+want       
+   object           
+   obtain           
+   offend           
+   offer            
+   open             
+   order   
+   pack up          
+   paint            
+   pay
+repay       
+   plant            
+   play             
+   plough           
+   pluck
+ pick      
+   praise           
+   prove            
+   read             
+   reap             
+   reckon
+ count    
+   receive          
+   refuse           
+   regret           
+   remember         
+   repeat           
+   rest             
+   return
+ come     
+    come back             
+  go back      
+  give back  
+   ring     
+   roast            
+   run              
+   say
+ tell        
+   search for       
+   see              
+   sell             
+   serve            
+   sew
+ stitch      
+   shave            
+   shine            
+   show             
+   sign           
+   sit down         
+   sleep            
+   sneeze           
+   sow     
+   speak            
+   spoil     
+   steal            
+   study            
+   swear            
+   take             
+   take off         
+   take a walk      
+   taste    
+   tell
+   thank            
+   think            
+   throw            
+   touch            
+   translate        
+   travel           
+   unbutton         
+   unpack           
+   wash             
+   weep             
+   weigh         
+   will 
+be willing 
+   work             
+   wrap up          
+   write            
+   yield
+ give way  

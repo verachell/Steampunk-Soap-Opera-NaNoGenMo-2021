@@ -1,0 +1,44 @@
+  aunt               
+  baby               
+  boy                
+  bride              
+  bridegroom         
+  brother            
+  child              
+  cousin             
+  daughter           
+  daughter-in-law    
+  family             
+  father             
+  father-in-law      
+  gentleman     
+  girl               
+  granddaughter     
+  grandfather        
+  grandmother        
+  grandson           
+  husband            
+  lady         
+  man             
+  marriage           
+  mother             
+  mother-in-law      
+  nephew             
+  niece              
+  parents            
+  people        
+  person             
+  single man       
+    bachelor         
+  single woman    
+    young lady 
+  sister             
+  sister-in-law      
+  son                
+  step-son           
+  uncle              
+  widow              
+  widower            
+  wife               
+  woman              
+

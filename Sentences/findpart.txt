@@ -1,0 +1,5 @@
+_PERSON.NAME_ looked near a _SPECPLANT_ and discovered a _NEWPROP_ _NEWPART_
+a _SPECLGANIMAL_ moved away, uncovering a _NEWPROP_ _NEWPART_ which _PERSON.NAME_ found
+when _PERSON.NAME_ started to _INFVERB_, _PERSON.HESHE_ realized there was a _NEWPROP_ _NEWPART_ where _PERSON.HESHE_ was standing
+following the path of a _SPECSMANIMAL_, _PERSON.NAME_ was led to a _NEWPROP_ _NEWPART_
+at the base of a _ADJ_ notice saying "_NOTICE_", _PERSON.NAME_ spied a _NEWPROP_ _NEWPART_

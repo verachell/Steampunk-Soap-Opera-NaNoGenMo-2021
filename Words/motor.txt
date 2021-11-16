@@ -1,0 +1,62 @@
+  accumulator        
+  battery            
+  brake-collar       
+  break down             
+  cam                
+  carburator         
+  chain adjustment   
+  charge        
+  chassis            
+  chauffeur
+ driver  
+  claw               
+  contact-breaker         
+  driving pinion     
+  elbow              
+  electric motor     
+  evaporate     
+  exhaust            
+  exhaust-box        
+silencer       
+  exhaust-valve      
+  feed-pump          
+  fill         
+  flaw               
+  fly-wheel          
+  garage             
+  gas                
+  generator          
+  goggles            
+  gradient           
+  handle             
+  hooter             
+  horse-power        
+  ignition           
+                     
+  leakage            
+  lever              
+  motor              
+  motor car             
+  motor lamp            
+  packing            
+  petrol             
+  high pressure
+  low pressure           
+  rack     
+  reservoir
+tank    
+  reversing lever    
+  spare tyre         
+  spark              
+  sparking-plug      
+  full speed     
+high speed
+low speed          
+                     
+  speed-changing gear             
+  starting-gear      
+  starting handle    
+  steering bar       
+  tap                
+  throw into gear              
+  throw out of gear

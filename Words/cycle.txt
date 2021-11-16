@@ -1,0 +1,113 @@
+  accessories        
+  acetylene          
+  axle               
+  back-pedal     
+  ball bearings      
+  bell               
+  bicycle            
+  bolt
+screw-bolt     
+  brake              
+  cement             
+  chain              
+    chainless        
+    chain-regulator  
+    chain-wheel      
+  clutch             
+  cone               
+  crank              
+  crank-pin          
+  crooked            
+  cycle-shop         
+  cycling race       
+  cycling track      
+  cyclist            
+  lady cyclist       
+  cyclometer         
+  detachable         
+  dismount      
+  dress-guard        
+  duster             
+  electro-plate 
+  enamel         
+  foot-rests         
+  foot-step          
+  fork               
+  frame              
+  free-wheel         
+  free-wheel    
+  friction           
+  gear               
+    high gear        
+    low gear         
+                     
+    two-speed gear   
+    gear-case        
+    geared to        
+    gearing          
+  handle-bar         
+  handles
+ grips     
+  hub                
+  indiarubber        
+  indiarubber        
+    solution         
+  inner tube         
+  lamp               
+    lamp-bracket     
+    lamp-wick        
+  light up      
+  link               
+  lubricator         
+  lubricator         
+    protector        
+  luggage-carrier    
+  map                
+  mount       
+  mudguard           
+  nut                
+  safety-nut    
+  oil for burning    
+  oil for lubricating    
+  oil-can            
+  outer cover        
+  pedal              
+    pedal-rubber     
+    pedal-brake      
+  pneumatic tyre     
+  pump               
+    pump up      
+    pump-tube        
+  to put together  
+    fit up to        
+  rag                
+  repair       
+  repairing outfit   
+  ride a bicycle
+  rim                
+  rim-brake          
+  rivet              
+  saddle             
+    saddle-bag       
+    saddle-pillar    
+  screw                     
+    screw-bolt of    
+      chain          
+    screwdriver      
+  spanner            
+  spokes             
+  spring             
+  start          
+  steer         
+  strap              
+  take to pieces
+  tighten up   
+  toe-clip           
+  tricycle           
+  trousers-clip      
+  unscrew       
+  valve              
+  valve-cap          
+  valve-tubing       
+  back wheel         
+  front wheel         

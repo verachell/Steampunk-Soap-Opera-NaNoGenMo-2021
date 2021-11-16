@@ -1,0 +1,82 @@
+  bank               
+  bank      
+  barley             
+  barn               
+  bridge             
+  brook              
+  building           
+  bush
+shrub        
+  cattle             
+  cemetery           
+  clover             
+  corn               
+  cottage            
+  the country      
+  courtyard          
+  crop               
+  dairy              
+  ditch              
+  drain              
+  farm               
+  farmer             
+  fence              
+  field              
+  flock of sheep   
+  footpath          
+  foot-pavement      
+  forest             
+  garden             
+  gate               
+  grass              
+  harvest            
+  hay                
+  hedge              
+  herd               
+  high road          
+  hotel              
+  hut                
+  inn                
+  labourer           
+  land
+soil         
+  library            
+  log                
+  manure             
+  market             
+  marketplace       
+  meadow             
+  mile               
+  mill               
+  monument           
+  oats               
+  palace             
+  place 
+spot        
+  pasture            
+  plough             
+  police station     
+  prison             
+  public-house       
+  restaurant         
+  river              
+  road               
+  rye                
+  school             
+  seed               
+  shepherd           
+  shop               
+  square             
+  stack              
+  street             
+  streetlamp        
+  tower              
+  town               
+  town hall          
+  tramway            
+  tree               
+  university         
+  village            
+  waterfall          
+  wheat              
+

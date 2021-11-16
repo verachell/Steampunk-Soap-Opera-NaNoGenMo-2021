@@ -1,0 +1,43 @@
+  collection         
+  contents           
+  counterfoil        
+  customs            
+  customs declaration      
+  delivery           
+  description        
+  despatch note      
+  excess postage     
+  letter post        
+  letter-scales      
+  mail          
+  money order               
+  newspaper wrapper  
+  parcel             
+  parcel post            
+  pillar-box         
+  post          
+    postage paid     
+    postal order     
+                     
+    postcard        
+    post office      
+    postman          
+    postmaster       
+  re-address     
+  register       
+  reply paid         
+  stamps             
+  telegram           
+  telegraph  
+  telegraph form            
+  telegraph messenger       
+  telegraph office          
+  telephone          
+  telephone call office     
+  telephone number          
+    ring up    
+  to be called for   
+  insured value     
+  weigh      
+    weight    
+    over weight        

@@ -1,0 +1,116 @@
+  ball       
+  balloon            
+    balloonist       
+  circus             
+  concert            
+    accompanist      
+    audience         
+    bass             
+    chorus 
+    conductor        
+    instruments      
+    brass instruments      
+     reed instruments   
+    string instruments     
+    music            
+    organ            
+    pianist          
+                     
+    piano            
+    programme        
+    recital          
+    recitation       
+    seats            
+    reserved seats
+unreserved seats 
+                     
+    singer           
+professional singer
+    solo
+ duet       
+    song             
+    soprano          
+    tenor            
+    ticket           
+    violin           
+  exhibition         
+  fête               
+  flower-show        
+  flying machine     
+  limelight-views    
+  museum             
+  picture-gallery    
+  refreshment-room   
+  sports and games   
+    bathing        
+    billiards        
+    boating 
+    to box       
+    boxing-match     
+    chess            
+    cricket          
+    draughts         
+    fishing          
+      to fish        
+      to go fishing  
+      fishing-line   
+      fishing-net    
+      fishing-rod    
+    hunting 
+to hunt 
+      fox-hunt       
+      huntsman       
+    match            
+    playing
+ to play 
+    races            
+      grand-stand    
+      jockey         
+      race-course    
+    rowing
+to row   
+    shooting         
+      ammunition     
+      bullet
+ ball   
+      cartridge      
+      game-bag       
+      gun            
+      shot           
+      to shoot       
+    skating     
+      skate          
+    spectator        
+    swimming     
+      swim           
+    tennis           
+    to wrestle       
+  tent               
+  theatre            
+    act                       
+    actor, actress   
+    auditorium       
+    ballet           
+    boxes            
+    box-office       
+    cloak-room       
+    comedian         
+    curtain          
+    dance            
+    dancer           
+    exit             
+    footlights       
+    gallery          
+    manager          
+    music-hall       
+    opera            
+    opera-glasses    
+    opera-house      
+    orchestra, band  
+    pit              
+    play             
+    scene            
+    scenery
+    stage            
+    stage-manager    
+    stalls           

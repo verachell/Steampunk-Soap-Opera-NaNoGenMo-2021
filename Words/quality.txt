@@ -1,0 +1,73 @@
+  age                
+  old age          
+  anger              
+  art                
+  breadth
+width     
+  character          
+  childhood          
+  depth              
+  dislike            
+  emotions           
+  fear               
+  foolishness
+folly 
+  gentleness         
+  goodness           
+  greatness          
+  hatred             
+  height             
+    stature          
+  honesty           
+    dishonesty       
+  honour
+dishonour  
+  intellect          
+  intelligence       
+  joy                
+  judgment
+  knowledge          
+  laughter
+  learning           
+  length             
+  love               
+  manhood            
+  mind               
+  patience           
+  pleasure           
+  politeness      
+    courtesy         
+  reason 
+  science            
+  senses        
+    feeling 
+touch   
+    hearing          
+    seeing 
+sight    
+    smelling 
+smell  
+    tasting 
+taste   
+  shape              
+  size               
+  smell
+odour    
+  smiling
+                     
+  sneezing 
+  sorrow             
+  speaking
+speech   
+  strength           
+  stupidity          
+  surprise           
+  taste
+  thickness          
+  thinking
+thought           
+  voice              
+  weakness
+  wisdom             
+  womanhood          
+  youth 

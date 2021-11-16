@@ -1,0 +1,3 @@
+_PERSON.NAME_ received a _ADJ_ letter:
+a _WRITING_ and _WRITING_ arrived, addressed to _PERSON.NAME_:
+suddenly, a _ROADTRAVEL_ delivered to _PERSON.NAME_ a _WRITING_ and _WRITING_:
