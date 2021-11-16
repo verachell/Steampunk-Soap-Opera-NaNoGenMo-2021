@@ -51,5 +51,13 @@ The 4 resultant files are placed in the ```Words```directory in this repository 
 
 I've explained this process in case anyone wants to "play" with this repository and try it with a different source text for the dialogue, for example.
 
+#### Words
+Words were obtained from [Esperanto Self-Taught with Phonetic Pronunciation by William Mann](https://www.gutenberg.org/ebooks/23984). The first column was the English word, so I was able to simply grab these and ignore the Esperanto translation by using the Linux command cut. I was then able to put each category in a different file.
+
+The ability of YeetWords to ignore leading and trailing blanks when doing auto-read-in of words was helpful, as the cut command left me with extra whitespace on each side that I didn't want to have to bother getting rid of.
+
 #### Character names
 Male and female character names were obtained from the [Top Names Over the Last 100 Years from the Social Security Administration of the USA](https://www.ssa.gov/OACT/babynames/decades/century.html), which at the time of downloading were from the years 1921-2020, and comprised the top overall 100 most popular names for each gender.
+
+#### Sentences
+I created the sentences myself, but I tried to minimize how many of my own words I was using in each sentence, with the idea that most of the words of the sentences would be substituted in from the word collection. Again, sentences that required extra templating were: removing a character, adding a character, and the ending.
