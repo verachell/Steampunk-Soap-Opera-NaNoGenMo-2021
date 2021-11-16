@@ -13,6 +13,13 @@ Then in your command line, type ```ruby yeetwords.rb soapopera.txt```
 
 A file containing the > 50000 words story will be generated in markdown format.
 
+### Overview
+The data (in English) comes from 2 Gutenberg books:
+- [Esperanto Self-Taught with Phonetic Pronunciation by William Mann](https://www.gutenberg.org/ebooks/23984) (using only the English words in there)  
+- [Dolly Dialogues by Anthony Hope](https://www.gutenberg.org/ebooks/1203)  
+
+The main words of the soap opera are from the English part of the Esperanto book mentioned above, while the dialogue is exclusively from Dolly Dialogues.
+
 ### Features
 - The story starts with the 5-6 main characters in one group, and then they split up into 2 groups where each group has a separate scene. Then the whole group gets back together to work on their invention.  
 
@@ -25,3 +32,8 @@ A file containing the > 50000 words story will be generated in markdown format.
 - Story-specific properties: each run of the program results in a different "biome" where 3 plants, 3 large animals, and 3 small animals feature predominantly (although not exclusively). The location of the invention is also story-specific. This location happens to be the last word in the story title, and tracks through the story with the group going there to work on their invention.
 
 - At the end of the story, the characters board the invention and travel away with it.
+
+### Limitations
+- The word groups used in this project did not necessarily have the same parts of speech, so sentences may not make a lot of sense.
+
+- Although I have tried to minimize how much templating I was doing in this project, some level of it was necessary.
