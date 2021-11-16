@@ -40,3 +40,13 @@ The main words of the soap opera are from the English part of the Esperanto book
 
 ### Credits
 #### Dialogue
+To extract the dialogue from [Dolly Dialogues by Anthony Hope](https://www.gutenberg.org/ebooks/1203), I used a shell script I created for this purpose which is available in [this gist](https://gist.github.com/verachell/c3497f6f29465b8346e9d0ee3ed0e721) which resulted in a file I called ```DialogAll.txt``` (not needed nor present in this repository). I then separated out that dialogue into 4 categories as follows:
+
+- Separated questions with ```grep \?$ DialogAll.txt > DialogQ.txt```  
+- Separated exclamations with ```grep \!$ DialogAll.txt > DialogE.txt```  
+- Separated things that need to start "he/she said" with ```grep -E '\.$' DialogAll.txt > SaidDialog.txt```   
+- Separated things that need to end "he/she said" with ```grep -E '\,$' DialogAll.txt > DialogSaid.txt```  
+
+The 4 resultant files are placed in the ```Words```directory in this repository and these are the sole source of dialogue in the soap opera.
+
+I've explained this process in case anyone wants to "play" with this repository and try it with a different source text for the dialogue, for example.
