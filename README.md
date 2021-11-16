@@ -39,3 +39,4 @@ The main words of the soap opera are from the English part of the Esperanto book
 - Although I have tried to minimize how much templating I was doing in this project, some level of it was necessary.
 
 ### Credits
+#### Dialogue
