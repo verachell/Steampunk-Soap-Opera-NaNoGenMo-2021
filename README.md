@@ -14,7 +14,7 @@ Then in your command line, type ```ruby yeetwords.rb soapopera.txt```
 A file containing the > 50000 words story will be generated in markdown format.
 
 ### Overview
-The data (in English) comes from 2 Gutenberg books:
+The word data (in English) comes from 2 Gutenberg books:
 - [Esperanto Self-Taught with Phonetic Pronunciation by William Mann](https://www.gutenberg.org/ebooks/23984) (using only the English words in there)  
 - [Dolly Dialogues by Anthony Hope](https://www.gutenberg.org/ebooks/1203)  
 
@@ -37,3 +37,5 @@ The main words of the soap opera are from the English part of the Esperanto book
 - The word groups used in this project did not necessarily have the same parts of speech, so sentences may not make a lot of sense.
 
 - Although I have tried to minimize how much templating I was doing in this project, some level of it was necessary.
+
+### Credits
