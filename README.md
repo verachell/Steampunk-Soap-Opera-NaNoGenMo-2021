@@ -50,3 +50,6 @@ To extract the dialogue from [Dolly Dialogues by Anthony Hope](https://www.guten
 The 4 resultant files are placed in the ```Words```directory in this repository and these are the sole source of dialogue in the soap opera.
 
 I've explained this process in case anyone wants to "play" with this repository and try it with a different source text for the dialogue, for example.
+
+#### Character names
+Male and female character names were obtained from the [Top Names Over the Last 100 Years from the Social Security Administration of the USA](https://www.ssa.gov/OACT/babynames/decades/century.html), which at the time of downloading were from the years 1921-2020, and comprised the top overall 100 most popular names for each gender.
