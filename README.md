@@ -18,7 +18,7 @@ The word data (in English) comes from 2 Gutenberg books:
 - [Esperanto Self-Taught with Phonetic Pronunciation by William Mann](https://www.gutenberg.org/ebooks/23984) (using only the English words in there)  
 - [Dolly Dialogues by Anthony Hope](https://www.gutenberg.org/ebooks/1203)  
 
-The main words of the soap opera are from the English part of the Esperanto book mentioned above, while the dialogue is exclusively from Dolly Dialogues.
+The main words of the soap opera are from the English part of the Esperanto book mentioned above, while the dialogue is exclusively from Dolly Dialogues. Both books are included in the repository so that people can see where the source data came from.
 
 ### Features
 - The story starts with the 5-6 main characters in one group, and then they split up into 2 groups where each group has a separate scene. Then the whole group gets back together to work on their invention.  
